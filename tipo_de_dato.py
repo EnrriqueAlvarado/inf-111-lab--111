@@ -1,0 +1,5 @@
+#n=int(input('ingrese su numero: '))
+print('3.1416',type(3.1416))
+print('17' ,type(17))
+print('hola',type('hola'))
+print('false',type(False)) 
