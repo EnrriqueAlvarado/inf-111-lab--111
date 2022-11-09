@@ -1,7 +1,5 @@
-n = int(input('ingrese un numero: '))
-c=0
-m=0
-while n<=0:
-    m = n%10**c
-    c = c+1
+n=int(input("ingrese un numero: "))
+m=n
+for i in range(0,len(str(n))):
+    n=n%10**(len(str(n)))
     print(n)
